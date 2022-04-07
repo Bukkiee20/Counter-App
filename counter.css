@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+}
+
+.container div{
+    margin-left: 20px; 
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 2rem;
+}
