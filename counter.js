@@ -4,7 +4,7 @@ let score= 0;
 function decrease(){
     score--;
     resultValue.innerHTML= score;
-    if(score < 1){
+    if(score < 0){
         resultValue.style.color= "red";
     }
     else if(score==0){
